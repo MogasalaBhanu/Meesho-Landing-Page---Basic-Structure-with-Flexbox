@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 30px;
+            border-bottom: 2px rgb(206, 205, 205) solid;
+            height: 90px;
+        }
+
+        .c2 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 30px;
+            border-bottom: 2px rgb(206, 205, 205) solid;
+            height: 90px;
+            padding-left: 190px;
+
+            :hover {
+                color: violet;
+                border-bottom: 2px blue solid;
+                padding-top: 30px;
+            }
+        }
+
+        .e1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .b1 {
+            width: 100px;
+            height: 50px;
+            color: white;
+            background-color: black;
+            font-size: medium;
+            font-weight: bold;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="c1">
+        <div><img src="https://uploads-ssl.webflow.com/5fe2c7874ee3c6c56889bbd2/6149c7f44eda4482c2c2626c_6320c2fe-9532-4b4f-81bf-633d30a89206.png"
+                alt="" width="200px"></div>
+        <div><ion-icon name="search"></ion-icon><input type="text"
+                placeholder="Try Saree,Kurti or Search by Product Code"
+                style="width: 450px;height: 40px;border-radius: 10px;border: 2px rgb(122, 118, 118) solid ;text-align: center;font-size: 20px;">
+
+        </div>
+        <div style="margin: 10px;"></div>
+        <ion-icon name="phone-portrait"></ion-icon>
+        <div>DOWNLOAD APP</div>
+        <div style="margin: 10px;border-left: 2px gray solid;height: 50px;"></div>
+        <div>Become a Suppiler</div>
+        <div style="margin: 10px;border-left: 2px gray solid;height: 50px;"></div>
+        <div class="text-center">
+            <ion-icon name="contact"></ion-icon>
+            <div>Profile</div>
+        </div>
+        <div style="margin: 5px;"></div>
+        <div>
+            <ion-icon name="cart"></ion-icon>
+            <div>Cart</div>
+        </div>
+    </div>
+    <div class="c2">
+        <div>Women Ethnic</div>
+        <div>Women Western</div>
+        <div>Men</div>
+        <div>Kids</div>
+        <div>Home & Kitchen</div>
+        <div>Beauty & Health</div>
+        <div>Jewellery & Accessories</div>
+        <div>Bags & Footwear</div>
+        <div>Electronics</div>
+    </div>
+    <div style="display: flex;flex-direction: row;justify-content: center;align-items: center;margin-top: 20px;">
+        <div
+            style="background-color: rgb(182, 212, 202);height: 300px;display: flex;justify-content: center;align-items: center;flex-direction: column;padding: 20px;gap: 10px;">
+            <div style="font-size: xx-large;font-weight: bolder;">Lowest Prices</div>
+            <div style="font-size: xx-large;font-weight: bolder;">Best Quality Shopping</div>
+            <div style="display: flex;flex-direction: row;gap: 20px;">
+                <img src="https://images.meesho.com/images/pow/freeDelivery_jamun.svg" alt="">
+                <!-- <div>Free</div> -->
+                <div style="border-right: 2px black solid;padding-right: 5px;width: 60px;">Free Delivery</div>
+                <img src="https://images.meesho.com/images/pow/cod_jamun.svg" alt="">
+                <!-- <div>Cash on</div> -->
+                <div style="border-right: 2px black solid;padding-right: 5px;width: 70px;">Cash on Delivery</div>
+                <img src="https://images.meesho.com/images/pow/easyReturns_jamun.svg" alt="">
+                <div style="width: 60px;">Easy Returns</div>
+                <!-- <div>Returns</div> -->
+            </div>
+            <div
+                style="display: flex;flex-direction: row;width: 250px;height: 40px;padding: 5px;justify-content: center;align-items: center;margin: 20px;border-radius: 10px;background-color: purple;font-weight: bolder;font-size: large;color: white;">
+                <ion-icon name="play"></ion-icon>
+                <div>Download the Meesho App</div>
+            </div>
+        </div>
+        <img src="https://images.meesho.com/images/marketing/1687149525469_512.webp" alt="" width="450px"
+            height="330px">
+    </div>
+    <div style="text-align: center;font-size: xx-large;font-weight: bold;margin: 30px;">Top Categories to choose from
+    </div>
+    <div
+        style="display: flex;flex-direction: row;gap: 20px;width: 1500px;height: 500px;align-items: center;justify-content: center;background-image: linear-gradient(to bottom , pink,skyblue);">
+        <div>
+            <img src="https://i.pinimg.com/originals/45/2b/18/452b185cdaf1012f26293f2fe1b92492.jpg" alt="">
+        </div>
+        <div style="display: flex;flex-direction: column;gap: 20px;">
+            <div style="font-size: x-large;font-weight: bold;text-align: center;">Be fashion forward</div>
+            <div style="display: flex;flex-direction: row;gap: 10px;">
+                <img src="https://images.meesho.com/images/products/244378891/anamz_256.webp" alt="" width="300px"
+                    height="300px">
+                <img src="https://i.ytimg.com/vi/iOzEotzjmt0/sddefault.jpg" alt="" width="400px"
+                    height="300px">
+            </div>
+        </div>
+    </div>
+    <div style="display: flex;flex-direction: row;gap: 20px;justify-content: center;align-items: center;background-image: url(https://assets.architecturaldigest.in/photos/60084a978661bd303c240c21/16:9/w_2560%2Cc_limit/Bulgac-getty-images-1366x768.jpg);padding: 50px;margin: 30PX;width: fit-content;">
+        <div style="display: flex;flex-direction: column;gap: 20px;">
+            <div style="font-size:xx-large;font-weight: bolder;padding-top: 50px;">Essentials</div>
+            <button style="color: white;background-color: purple;width: 100px;">View All</button>
+        </div>
+        <div style="display: flex;flex-direction: row;gap: 20px;">
+            <div class="e1">
+                <img src="https://images.meesho.com/images/products/239225081/adj20_512.jpg" alt="" height="250px"
+                    width="200px">
+                <button class="b1">Home Decor</button>
+            </div>
+            <div class="e1">
+                <img src="https://images.meesho.com/images/marketing/1612167731247.png" alt="" height="250px"
+                    width="200px">
+                <button class="b1">Kitchen Appliances</button>
+            </div>
+            <div class="e1">
+                <img src="https://c8.alamy.com/comp/S3241W/stethoscope-on-table-black-and-white-S3241W.jpg" alt="" height="250px"
+                    width="200px">
+                <button class="b1">Health Care</button>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: flex;flex-direction: row;gap: 20px;justify-content: center;align-items: center;background-image: linear-gradient(to bottom, wheat,white);padding: 50px;margin: 30PX;width: fit-content;">
+        <div style="display: flex;flex-direction: column;gap: 20px;">
+            <div style="font-size:xx-large;font-weight: bolder;padding-top: 50px;">New Style</div>
+            <button style="color: white;background-color: purple;width: 100px;">View All</button>
+        </div>
+        <div style="display: flex;flex-direction: row;gap: 20px;">
+            <div class="e1">
+                <img src="https://i.ytimg.com/vi/3wDVM2mS5po/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAvgqZJjqLkwetZQ7I7eqUFcvxenQ" alt="" height="250px"
+                    width="200px">
+                <button class="b1">Accessories</button>
+            </div>
+            <div class="e1">
+                <img src="https://images.meesho.com/images/catalogs/81090611/collages/1/1/db5fe0249208afa0d2fce65c83b2e36798e9b00ded362ae78e4d64b68e314c145cc2545fd5603a614fb33d216bfd5152439da32bbd81b00c881fad373f1311be.jpg" alt="" height="250px"
+                    width="200px">
+                <button class="b1">Footwear</button>
+            </div>
+            <div class="e1">
+                <img src="https://images.meesho.com/images/marketing/1612168610378.png" alt="" height="250px"
+                    width="200px">
+                <button class="b1">Electronics</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+</html>
